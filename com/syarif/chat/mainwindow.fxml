@@ -1,0 +1,41 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane fx:id="mainBorderPane" fx:controller="com.syarif.chat.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <HBox>
+            <TextField fx:id="name" text="Your Name">
+
+            </TextField>
+            <TextField fx:id="ip" text="localhost">
+
+            </TextField>
+
+            <CheckBox fx:id="connectAs" text="run as server"/>
+
+            <Button fx:id="connectButton" text="Connect!" onAction="#connect">
+
+            </Button>
+        </HBox>
+    </top>
+    <left>
+        <VBox>
+            <TextArea fx:id="messagesTextArea" prefHeight="500" prefWidth="600">
+
+            </TextArea>
+        </VBox>
+
+    </left>
+    <bottom>
+        <HBox>
+            <TextField fx:id="textMessage" prefWidth="550">
+
+            </TextField>
+            <Button text="Send" onAction="#sendMessage">
+
+            </Button>
+        </HBox>
+    </bottom>
+</BorderPane>
