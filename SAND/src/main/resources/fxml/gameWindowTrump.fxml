@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.TextFlow?>
+<BorderPane stylesheets="@/style/gameStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.unibas.dmi.cs108.sand.gui.GameControllerTrump">
+    <center>
+        <Pane fx:id="pane">
+
+         <children>
+             <ImageView layoutX="200.0" layoutY="40.0">
+                 <Image url="/img/grass.jpg" />
+             </ImageView>
+             <ImageView layoutX="50" layoutY="50">
+                 <Image url="/img/whiteboard-md.png" requestedWidth="100" requestedHeight="100"/>
+             </ImageView>
+             <TextFlow textAlignment="CENTER" fx:id="money" layoutX="50" layoutY="55" prefWidth="100" prefHeight="100"/>
+
+             <Button fx:id="buttonLeft11" layoutX="200.0" layoutY="40.0" mnemonicParsing="false" onAction="#buttonLeft11" prefHeight="100" prefWidth="100"  />
+             <Button fx:id="buttonLeft12" layoutX="200.0" layoutY="150.0" prefHeight="100" prefWidth="100" onAction="#buttonLeft12"/>
+             <Button fx:id="buttonLeft13" layoutX="200.0" layoutY="260.0" prefHeight="100" prefWidth="100" onAction="#buttonLeft13"/>
+             <Button fx:id="buttonLeft14" layoutX="200.0" layoutY="370.0" prefHeight="100" prefWidth="100" onAction="#buttonLeft14"/>
+             <Button fx:id="buttonLeft15" layoutX="200.0" layoutY="480.0" prefHeight="100" prefWidth="100" onAction="#buttonLeft15"/>
+             <Button fx:id="buttonLeft16" layoutX="200.0" layoutY="590.0" prefHeight="100" prefWidth="100" onAction="#buttonLeft16"/>
+             <Button layoutX="300.0" layoutY="40.0" prefHeight="100" prefWidth="100" />
+             <Button layoutX="300.0" layoutY="150.0" prefHeight="100" prefWidth="100" />
+             <Button layoutX="300.0" layoutY="260.0" prefHeight="100" prefWidth="100" />
+             <Button layoutX="300.0" layoutY="370.0" prefHeight="100" prefWidth="100" />
+             <Button layoutX="300.0" layoutY="480.0" prefHeight="100" prefWidth="100" />
+             <Button layoutX="300.0" layoutY="590.0" prefHeight="100" prefWidth="100" />
+
+
+
+
+         </children>
+        </Pane>
+    </center>
+    
+</BorderPane>

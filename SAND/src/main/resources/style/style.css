@@ -1,0 +1,12 @@
+#warning{
+    -fx-text-fill: red;
+}
+
+#textAreaMessages{
+    -fx-background-color: white;
+}
+
+#id{
+    -fx-alignment: CENTER;
+}
+
